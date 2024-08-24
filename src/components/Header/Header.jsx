@@ -76,7 +76,7 @@ const Header = () => {
               <div className="col-6 col-lg-4 d-block d-xl-none py-3 py-xl-0 ml-4">
                 <div className="header-logo">
                   <a href="index.html">
-                    <img src="assets/img/logo-2.png" alt="Gamio" />
+                    <img src="assets/img/logotype.png" alt="GamesPopUP" style={{ width: "100px", height: "100px" }}/>
                   </a>
                 </div>
               </div>

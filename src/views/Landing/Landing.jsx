@@ -75,7 +75,7 @@ const LandingPage = () => {
           </button>
           <div className="mobile-logo">
             <a href="index.html">
-              <img src="assets/img/logo.png" alt="Gamio" />
+              <img src="assets/img/logotype.png" alt="GamesPopUp" />
             </a>
           </div>
           <div className="vs-mobile-menu link-inherit"></div>

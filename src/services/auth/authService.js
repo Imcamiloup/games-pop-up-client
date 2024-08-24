@@ -1,9 +1,10 @@
 import axios from "axios";
+//const { API_BASE_URL } = process.env;
 
 const requestSignUp = async (data) => {
   try {
     const response = await axios.post(
-      `${process.env.API_BASE_URL}/users/register`,
+      `$https://games-pop-up.onrender.com/users/register`,
       data
     );
     return response.data;
