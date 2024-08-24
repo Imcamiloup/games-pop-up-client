@@ -3,7 +3,7 @@ import axios from "axios";
 const requestSignUp = async (data) => {
   try {
     const response = await axios.post(
-      "http://localhost:3000/users/register",
+      `${process.env.API_BASE_URL}/users/register`,
       data
     );
     return response.data;

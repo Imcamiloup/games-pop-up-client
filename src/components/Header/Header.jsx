@@ -59,11 +59,6 @@ const Header = () => {
                     </li>
                     <li>
                       <a href="#" className="icon-btn6">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="icon-btn6">
                         <i className="fab fa-youtube"></i>
                       </a>
                     </li>
@@ -138,7 +133,7 @@ const Header = () => {
                               <a href="blog.html">Comunidad k-pop</a>
                             </li>
                             <li>
-                              <a href="blog-details.html">VTS Cumpleaños</a>
+                              <a href="blog-details.html">BTS Cumpleaños</a>
                             </li>
                             <li>
                               <a href="shop.html">Clases de koreano</a>
@@ -158,7 +153,10 @@ const Header = () => {
                               <a href="contact.html">Yugi-oh</a>
                             </li>
                             <li>
-                              <a href="error.html"> Digimon </a>
+                              <a href="error.html"> Figuras Coleccionables </a>
+                            </li>
+                            <li>
+                              <a href="error.html"> Manga </a>
                             </li>
                           </ul>
                         </li>

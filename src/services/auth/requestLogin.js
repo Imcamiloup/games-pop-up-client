@@ -4,7 +4,7 @@ export default async function loginUser(formData) {
   console.log("formData", formData);
   try {
     const response = await axios.post(
-      'http://localhost:3000/users/login',
+      `${process.env.API_BASE_URL}/users/login`,
       formData
     );
 

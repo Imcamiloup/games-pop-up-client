@@ -1,24 +1,24 @@
 // LandingPage.js
 import React from "react";
 const LandingPage = () => {
-
-
-
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="preloader  ">
-      </div>
+      <div className="preloader  "></div>
       <div className="sticky-header-wrap sticky-header bg-black py-1 py-sm-2 py-lg-1">
         <div className="container position-relative">
-          <div className="row align-items-center">
+          <div className="row align-items-center justify-content-between">
             <div className="col-5 col-md-3">
               <div className="logo">
                 <a href="index.html">
-                  <img src="assets/img/logo-2.png" alt="Gamio" />
+                  <img
+                    src="assets/img/logotype.png"
+                    alt="GamesPopUP"
+                    style={{ width: "100px", height: "100px" }}
+                  />
                 </a>
               </div>
             </div>
-            <div className="col-7 col-md-9 text-end position-static">
+            <div className="col-7  justify-content-around " >
               <nav className="main-menu menu-sticky1 d-none d-lg-block link-inherit">
                 <ul>
                   <li>
@@ -26,12 +26,12 @@ const LandingPage = () => {
                       Home
                     </a>
                   </li>
-                  <li>
-                    <a href="about.html">About</a>
-                  </li>
                   <li className="menu-item-has-children">
                     <a href="blog.html">Blog</a>
                     <ul className="sub-menu">
+                      <li>
+                        <a href="events.html">Eventos</a>
+                      </li>
                       <li>
                         <a href="blog.html">Blog</a>
                       </li>
@@ -41,7 +41,7 @@ const LandingPage = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html">Eventos</a>
                   </li>
                 </ul>
               </nav>
@@ -163,7 +163,6 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      
 
       <section
         className="vs-blog-wrapper bg-dark vs-blog-layout1 link-inherit space-top space-md-bottom mt-5"
@@ -445,7 +444,6 @@ const LandingPage = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -520,7 +518,9 @@ const LandingPage = () => {
               <div className="row align-items-center justify-content-center">
                 <div className="col-xl-6 text-center text-xl-start mb-3 mb-xl-0">
                   <span className="sub-title2 mt-2">News </span>
-                  <h2 className="mb-0 text-white">Obten actualizaciones en tu email</h2>
+                  <h2 className="mb-0 text-white">
+                    Obten actualizaciones en tu email
+                  </h2>
                 </div>
                 <div className="col-md-10 col-lg-8 col-xl-6">
                   <form action="#" className="newsletter-style1 d-md-flex">
@@ -557,9 +557,6 @@ const LandingPage = () => {
                       </a>
                       <a className="icon-btn" href="#">
                         <i className="fab fa-twitter"></i>
-                      </a>
-                      <a className="icon-btn" href="#">
-                        <i className="fab fa-linkedin-in"></i>
                       </a>
                       <a className="icon-btn" href="#">
                         <i className="fab fa-youtube"></i>
@@ -625,7 +622,9 @@ const LandingPage = () => {
                     </p>
                     <p className="contact-info">
                       <i className="fal fa-envelope text-white"></i>
-                      <a href="mailto:info@example.com">games-pop-up@compensar.com</a>
+                      <a href="mailto:info@example.com">
+                        games-pop-up@compensar.com
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -638,8 +637,8 @@ const LandingPage = () => {
             <div className="row justify-content-between">
               <div className="col-xl-auto align-self-center text-center py-3 py-xl-0 text-xl-start">
                 <p className="copywrite-text">
-                  Copyright &copy; 2024 <a href="index.html">Games Pop Up</a> All
-                  Rights Reserved 
+                  Copyright &copy; 2024 <a href="index.html">Games Pop Up</a>{" "}
+                  All Rights Reserved
                 </p>
               </div>
               <div className="col-xl-auto d-none d-xl-block">
